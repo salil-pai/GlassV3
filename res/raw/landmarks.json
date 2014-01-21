@@ -1,0 +1,14 @@
+{
+    "landmarks": [
+        {
+            "name": "Starbucks",
+            "latitude": 33.7768575,
+            "longitude": -84.3885907
+        },
+        {
+            "name": "TSRB",
+            "latitude": 33.7774645,
+            "longitude": -84.3897146
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="334dp"
+        android:layout_y="466dp"
+        android:src="@android:drawable/ic_menu_edit" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="182dp"
+        android:layout_height="104dp"
+        android:layout_x="56dp"
+        android:layout_y="137dp"
+        android:text="TSRB" />
+
+</AbsoluteLayout>
