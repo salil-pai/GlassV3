@@ -10,20 +10,29 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="match_parent"
+        android:layout_width="240px"
         android:layout_height="match_parent"
-        android:layout_above="@+id/textView1"
-        android:maxHeight="300dp"
-        android:maxWidth="600dp"
-        android:src="@android:drawable/btn_star_big_off" />
+        android:maxHeight="360px"
+        android:maxWidth="640px"
+        android:src="@android:drawable/btn_star_big_off"
+        android:scaleType="centerCrop" />
 
-    <TextView
+   <!--  <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/imageView1"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="73dp"
-        android:text="no Previous Pic" />
+        android:text="no Previous Pic" /> -->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400px"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="241px"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="centerInside" />
 
 </RelativeLayout>
